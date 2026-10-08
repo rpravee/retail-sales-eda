@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+*.pyc
+data/*.csv
+data/*.xlsx
+outputs/cleaned_online_retail.csv

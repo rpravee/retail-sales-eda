@@ -1,0 +1,7 @@
+step,rows_removed,rows_remaining,why
+0. raw data,0,541909,starting point
+1. exact duplicate rows,5268,536641,identical in every column: almost certainly double-logged lines
+2. cancellation rows,9251,527390,"invoice starts with 'C': money going back out, analysed separately"
+3. non-positive quantity or price,2512,524878,"stock write-offs, free items, bad-debt adjustments: not real sales"
+4. orders fully cancelled soon after,1258,523620,"the original order of a cancelled pair (same product, or cancelled via a Manual line); keeping it would overstate sales"
+5. flagged (kept): non-product lines,0,523620,"2,306 postage/fee/adjustment lines are flagged IsNonProduct and excluded from product rankings"
