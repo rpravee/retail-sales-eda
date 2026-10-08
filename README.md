@@ -1,4 +1,4 @@
-# Online Retail Sales: Cleaning and EDA 
+# Online Retail Sales: Cleaning and EDA
 
 Exploratory analysis of a UK online gift retailer (541,909 transaction lines, 1 Dec 2010 to 9 Dec 2011), built around one idea:
 **cleaning decisions are analytical decisions, so investigate them, document them and test them.**
